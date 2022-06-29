@@ -12,7 +12,7 @@
 /* liner radient background color */
 
 body{
-    height: 900px;
+    height: 800px;
     width: 100%;
     background-image: linear-gradient(white 60%,green ,red);
    
@@ -27,6 +27,8 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
+    border-radius:15px;
+    margin-left: 60%;
  }
 
  #false-button {
@@ -36,7 +38,8 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    
+    border-radius:15px;
+    margin-left: 40%;
  }
 
 
@@ -46,6 +49,7 @@ body{
     height: 300px;
     width: 600px;
     margin: 0 auto;
+    
    
    
  }
@@ -54,3 +58,26 @@ body{
     text-align: center;
     margin-top: 15px;
  }
+
+ 
+ #ture-div {
+    
+display: inline-block;
+
+left: 30%;
+ margin-bottom: 40px;
+ margin-top: 30px;
+
+ }
+
+ #fasle-div {
+ display: inline-block;
+ margin-left: 45% ;
+ margin-bottom: 40px;
+ margin-top: 30px;
+
+ }
+ 
+#false-button {
+    margin: 10px;
+}
