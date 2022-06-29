@@ -5,5 +5,13 @@
 
 #page-heading {
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 3rem;
+}
+
+body{
+    height: 900px;
+    width: 100%;
+    background-image: linear-gradient(white 60%,green ,red);
+   
+    
 }
