@@ -6,7 +6,10 @@
 #page-heading {
     text-align: center;
     margin-top: 3rem;
+    margin-bottom: 2rem;
 }
+
+/* liner radient background color */
 
 body{
     height: 900px;
@@ -15,3 +18,39 @@ body{
    
     
 }
+
+/* defult button design */
+#ture-button {
+    border: solid green 3px;
+    padding-right: 13px;
+    padding-left: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+ }
+
+ #false-button {
+    border: solid red 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    
+ }
+
+
+ 
+ #Question1 {
+    border: 1px solid black;
+    height: 300px;
+    width: 600px;
+    margin: 0 auto;
+   
+   
+ }
+
+ #Question1-text {
+    text-align: center;
+    margin-top: 15px;
+ }
