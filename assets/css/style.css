@@ -81,3 +81,24 @@ left: 30%;
 #false-button {
     margin: 10px;
 }
+
+
+/*  button hover and press design for flase button */
+
+#false-button:hover {background-color: red}
+
+#false-button:active {
+  background-color: red;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px); 
+
+  }
+/*  button hover and press design for true button */
+  #ture-button:hover {background-color: green}
+
+  #ture-button:active {
+    background-color: green;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px); 
+  
+    }
