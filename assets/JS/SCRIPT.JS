@@ -1,0 +1,2 @@
+let questionlist = ["A Maraton race is 42km" , "The plural form of cactus is cactuses" , "the √ of 9 is 3" , "The worlds biggest mammal is the african elefant" , "The worlds fastest sea animal is the mako shark" , "Our galaxy is named the milkyway", "The largest state in the US is texas" , "The financial crisis lasted between 2007 - 2008" , "The worlds 1st camera was invented in 1816"]; 
+console.log(question[2]);
