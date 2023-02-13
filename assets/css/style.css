@@ -11,74 +11,74 @@
 
 /* liner radient background color */
 
-body{
+body {
     height: 900px;
     width: 100%;
-    background-image: linear-gradient(white 60%,green ,red);
-   
-    
+    background-image: linear-gradient(white 60%, green, red);
+
+
 }
 
 /* defult button design */
-#ture-button {
+#true-button {
     border: solid green 3px;
     padding-right: 13px;
     padding-left: 13px;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    border-radius:15px;
+    border-radius: 15px;
     margin-left: 60%;
- }
+}
 
- #false-button {
+#false-button {
     border: solid red 3px;
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    border-radius:15px;
+    border-radius: 15px;
     margin-left: 40%;
- }
+}
 
 
- 
- #Question1 {
+
+#Question1 {
     border: 1px solid black;
     height: 300px;
     width: 600px;
     margin: 0 auto;
     border-radius: 10px;
-    
-   
-   
- }
 
- #Question1-text {
+
+
+}
+
+#Question1-text {
     text-align: center;
     margin-top: 15px;
- }
+}
 
- 
- #ture-div {
-    
-display: inline-block;
 
-left: 30%;
- margin-bottom: 40px;
- margin-top: 30px;
+#true-div {
 
- }
+    display: inline-block;
 
- #fasle-div {
- display: inline-block;
- margin-left: 45% ;
- margin-bottom: 40px;
- margin-top: 30px;
+    left: 30%;
+    margin-bottom: 40px;
+    margin-top: 30px;
 
- }
- 
+}
+
+#fasle-div {
+    display: inline-block;
+    margin-left: 45%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+}
+
 #false-button {
     margin: 10px;
 }
@@ -96,35 +96,43 @@ left: 30%;
     border: solid cyan 3px;
     padding-bottom: 5px;
     text-align: center;
-    border-radius:15px;
+    border-radius: 15px;
     padding: 5px;
     outline: 1px solid black;
 }
 
 /*  button hover and press design for flase button */
 
-#false-button:hover {background-color: red}
+#false-button:hover {
+    background-color: red
+}
 
 #false-button:active {
-  background-color: red;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px); 
+    background-color: red;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 
-  }
+}
+
 /*  button hover and press design for true button */
-  #ture-button:hover {background-color: green}
+#true-button:hover {
+    background-color: green
+}
 
-  #ture-button:active {
+#true-button:active {
     background-color: green;
     box-shadow: 0 5px #666;
-    transform: translateY(4px); 
-  
-    }
+    transform: translateY(4px);
+
+}
 
 
-#start-button:hover {background-color:cyan}
+#start-button:hover {
+    background-color: cyan
+}
 
 #start-button:active {
-  background-color: rgb(108, 242, 242);
-  box-shadow: 0 5px #666;
-  transform: translateY(4px); }
+    background-color: rgb(108, 242, 242);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
