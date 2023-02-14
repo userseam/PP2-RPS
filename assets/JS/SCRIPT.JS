@@ -82,7 +82,8 @@ function hideButton() {
     $("#true-button").show();
     $('#Question1-text').show();
     fnReset();
-    score = 0;
+  score = 0;
+  $('#score').html(score)
 }
 function fnReset() {
 
@@ -102,14 +103,9 @@ function fnNext() {
       currentquestion = currentquestion + 1;
       $("#false-button").show();
     $("#true-button").show();
-    // document.getElementById('rinextquestion').classList.add('rihide');
 } else {
       $('#rireset').show();
       $('#Question1-text').hide();
-
-    // document.getElementById('rinextquestion').classList.add('rihide');
-    // // document.getElementById('riquestionbox').classList.add('rihide');
-    // document.getElementById('rireset').classList.remove('rihide');
   }
   document.getElementById('questionresponse').classList.add('rihide');
   document.getElementById('Question1-text').innerHTML = questions[currentquestion].question;
